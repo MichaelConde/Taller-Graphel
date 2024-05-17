@@ -1,0 +1,288 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    
+}
+#head{
+    
+    background-color: #24282B;
+    color: white;
+    border-bottom: #1293D4 5px solid;
+    
+}
+.twotittle{
+ color: #1293D4;
+
+}
+#list{
+    display: flex;
+  padding-left: 180%;
+  list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#option{
+    transform: translate(40%, 50%);
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: xx-large;
+ 
+}
+h1{
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#part1{
+    background-image: url(../images/cabecera.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 55vh;
+}
+.tittle{
+    position: absolute;
+    transform: translate( 60%, 120%);
+    font-size: 80px;
+    color: white;
+}
+.textittle{
+    transform: translate( 20%, 60%);
+    max-width: 1200px;
+    padding: 100px;
+    top: 100;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+#part2{
+    background-color: #24282B;
+    color: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.spam{
+    margin-left: 30px;
+    margin-top: 36px;
+}
+.campo1{
+    margin-left: 60%;
+    margin-top: 25px;
+    max-height: 50px;
+}
+.boton{
+    margin-top: 24px;
+    max-height: 55px; 
+    margin-left: 10px;
+    width: 180px;
+    background-color: #E8491D;
+}
+
+#texthtml{
+    margin-top: 25px;
+    margin-left: 50px;
+    max-width: 500px;
+    text-align: center;
+}
+#imagenhtml{
+    margin-top: 100px;
+    max-width: 100px;
+    margin-left:245px;
+}
+#titulohtml{
+    margin-top: 20px;
+    margin-left: 255px;
+}
+#css{
+    transform: translate(990%, -100%);
+    max-width: 100px;
+}
+#imgcss{
+    max-width: 110px;
+}
+#textocss{
+    width: 500px;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: -200px;
+}
+#titulocss{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#diseño{
+    transform: translate(830%, -170%);
+    max-width: 200px;
+}
+#titulodiseño{
+    margin-top: 20px;
+    margin-left: 0px;
+
+}
+#imagendiseño{
+    max-width: 150px;
+}
+#textodiseño{
+    width: 500px;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: -170px;
+}
+footer{
+  display: flex;
+    background-color: #1293D4;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#parte2{
+max-height: 450px ;
+}
+#nosotros{
+    margin-top: 60px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+#textonosotros1{
+    margin-top: 20px;
+    max-width: 100vh;
+}
+#textosnosotros2{
+    margin-top: 20px;
+    max-width: 95vh;
+    background-color: #35424A;
+    color: white;
+    padding: 20px;
+}
+#imagencafe{
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 99vh;
+   
+}
+#textohacemos{
+    display: flex;
+    flex-direction: column;
+    transform: translate(265%, -310%);
+    max-width: 40vh;
+    background-color: #35424A;
+    color: white;
+    padding: 20px;
+}
+#titulohacemos{
+    margin-bottom: 10px;
+}
+#todonosotros{
+max-height: 60vh;
+}
+#todosservicios{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    max-width: 95vh;
+    margin-top: 50px;
+    max-height: 55vh;
+}
+#servicio1{
+    background-color: #35424a33;
+    padding: 20px;   
+}
+#infoservicio{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#servicio2{
+    margin-top: 10px;
+    background-color: #35424a33;
+    padding: 20px;   
+}
+#servicio3{
+    margin-top: 10px;
+    background-color: #35424a33;
+    padding: 20px; 
+    
+}
+#tituloservicios{
+    margin-bottom: 20px;
+}
+#textohacemos2{
+    display: flex;
+    flex-direction: column;
+    transform: translate(250%, -290%);
+    max-width: 40vh;
+    background-color: #35424A;
+    color: white;
+    padding: 20px;
+}
+#titulohacemos2{
+    margin-bottom: 10px;
+}
+#formularios{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 50px;
+
+  
+}
+.formularionombre{
+    width: 800px;
+    height: 40px;
+}
+.formularioemail{
+    width: 800px;
+    height: 40px;
+}
+.formulariotelefono{
+    width: 800px;
+    height: 40px;
+}
+.formulariocelular{
+    width: 800px;
+    height: 40px;
+}
+#formulariomensaje{
+    width: 800px;
+    height: 300px;
+}
+.contacto{
+    padding: 20px;
+    margin-left: -20px;
+}
+.botonformulario{
+    width: 800px;
+    height: 40px;
+    margin-top: 10px;
+}
+#textohacemos3{
+    display: flex;
+    flex-direction: column;
+    transform: translate(220%, -100%);
+    max-width: 43vh;
+    color: white;
+    background-color: #35424A;
+}
+#textohacemosh3{
+    background-color: #35424A;
+    width: 400px;
+    padding: 20px;
+}
+#imagenmapa{
+padding-top: 10px;
+height: 480px;
+width: 444px ;
+background-color: white;
+}
+#titulohacemos3{
+    margin-left: 15px;
+    width: 800px;
+}
+
